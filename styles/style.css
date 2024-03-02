@@ -139,6 +139,7 @@ position: relative;
     width: 1250px;
     margin: 25px auto;
   }
+  
   .service{
     border-radius: 5px;
     border: 2px solid aquamarine;
@@ -154,12 +155,124 @@ position: relative;
   }
 
   .best-price{
+    display: flex;
+    flex-direction: column;
     width: 50%;
     margin: 5px auto;
     background-color: rgba(233, 68, 68, 0.05);
     border: 2px solid rgba(188, 143, 143, 0.192);
     padding: 10px;
   }
+
+  /* newsletter style section  */
+  .news-container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .news-filed{
+    border-radius: 5px;
+    border: 2px solid orange;
+    width: 35%;
+    padding: 30px;
+  }
+  .news-filed img{
+    position: relative;
+    width: 672px;
+    height: auto;
+  }
+
+  .news-filed input{
+    width: 393px;
+    height: 52px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px solid antiquewhite;
+    
+  }
+  .news-filed button{
+    width: 410px;
+    height: 60px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .discount{
+    border: 2px solid lawngreen;
+    background-color: orangered;
+    width: 20%;
+    height: 120px;
+    position: absolute;
+    text-align: center;
+    right: 80px;
+    margin-top: 250px;
+    padding: 10px;
+    rotate: -15deg;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    
+  }
+
+  /* footer section  */
+  .footer-container{
+    border-radius: 5px;
+    border: 5px solid whitesmoke;
+    background-color: whitesmoke;
+
+  }
+  .footer-text{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+
+   
+  }
+
+  .footer-section{
+    width: 60%;
+    margin: 20px auto;
+    
+    
+    text-align: center;
+  }
+  .footer-text span{
+    color: orangered;
+  }
+  .social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  .social-icon img {
+    width: 30px;
+    
+  }
+  hr{
+    width: 80%;
+    margin: 50px;
+  }
+  .copyright{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  /* footer end  */
+  
+
+ 
   
 
 
@@ -191,10 +304,32 @@ position: relative;
         flex-direction: column;
         width: 100%;
     }
+    
     .best-price{
-        width: 100%;
+        width: 90%;
     }
 
+    .news-container {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        border: 5px solid greenyellow;
+        
+        
+        
+    }
+    .news-filed {
+        width: 90%;
+    }
+    .sea-img{
+        width: 100%;
+        
+      }
+      
+   
+    
+    
+    
    
     
 }
