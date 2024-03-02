@@ -124,6 +124,60 @@ position: relative;
     color: aliceblue;
     padding: 5px;
   }
+  .indonasia{
+    position: absolute;
+    bottom: 70%;
+    right: 20%;
+    font-size: 35px;
+    font-weight: 800;
+    color: aliceblue;
+    padding: 5px;
+  }
+  .Sri-Lanka{
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    font-size: 35px;
+    font-weight: 800;
+    color: aliceblue;
+    padding: 5px;
+  }
+  .north-america{
+    position: absolute;
+    bottom: 40%;
+    right: 40%;
+    font-size: 35px;
+    font-weight: 800;
+    color: aliceblue;
+    padding: 5px;
+  }
+  .Kashmir{
+    position: absolute;
+    bottom: 40%;
+    right: 10%;
+    font-size: 35px;
+    font-weight: 800;
+    color: aliceblue;
+    padding: 5px;
+  }
+  .Bangladesh{
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    font-size: 35px;
+    font-weight: 800;
+    color: aliceblue;
+    padding: 5px;
+  }
+  .Bandarban{
+    position: absolute;
+    bottom: 15%;
+    right: 25%;
+    font-size: 35px;
+    font-weight: 800;
+    color: aliceblue;
+    padding: 5px;
+  }
 
   /* hotel section abut us  */
   .handpick-hotel{
@@ -281,19 +335,24 @@ position: relative;
 /* mobile responsive */
 @media screen and (max-width: 600px) {
     .expoler{
-        
         display: none;
+        max-width: 100%;
+    margin: 20px auto; 
+    padding: 10px;
+        
     }
   
     .field{
+        
         display: none;
-        width: 300px;
+        width: 50%;
         
     }
     .tour-container{
         flex-direction: column;
         gap: 10px;
     }
+    
     .row{
         flex-direction: column;
     }
